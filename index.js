@@ -12,17 +12,6 @@ const { open } = require ('sqlite');
 
 const port = 3000;
 
-
-
-app.get('/', (request, response) =>{
-    response.send('all Okay');
-})
-
-let date = new Date();
-
-app.get('/date', (request, response) => {
-    response.send(date);
-})
 const dbPath = path.join(__dirname, 'bookpractice.db');
 let db = null;
 const initializeDbAndServer = async () =>{
