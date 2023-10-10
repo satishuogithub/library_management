@@ -1,4 +1,4 @@
-//Here book is used instead of product
+//Here book is used instead of product and JSON WEB TOKEN is used for authentication and user details are hashed with bcrypt package
 
 const express = require('express');
 const app = express();
